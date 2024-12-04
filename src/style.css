@@ -1,6 +1,6 @@
-body  {
-background: linear-gradient(135deg, #89f7fe, #66a6ff);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+body {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
   background-color: white;
@@ -8,26 +8,26 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
   margin: 120px auto;
   padding: 100px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px ;
+  box-shadow: 0 4px 10px;
 }
 header {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 h1 {
-font-family: 'Segoe UI';
-color: #66a6ff;
-text-align: center;
-font-style: italic;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.5;
+  font-family: "Segoe UI";
+  color: #66a6ff;
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 form {
-display: flex;
-margin-bottom: 20px;
-padding: 30px;
-background-color: white;
-box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
+  display: flex;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
 }
 .instructions {
   text-align: center;
@@ -50,15 +50,21 @@ box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
   padding: 14px 24px;
 }
 .poem {
-font-family: cursive;
-font-size: 18px;
-text-align: center;
-margin-top: 20px;
-padding: 30px;
+  font-family: cursive;
+  font-size: 18px;
+  text-align: left;
+  line-height: 2;
+  margin-top: 20px;
+  padding: 30px;
+  border-left: 1px solid rgb(102, 166, 255);
+}
+.poem strong {
+  color: #66a6ff;
 }
 a {
   color: #a43adb;
 }
 footer {
   text-align: center;
+  margin-top: 20px;
 }
