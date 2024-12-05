@@ -22,15 +22,17 @@ h1 {
   font-weight: 700;
   line-height: 1.5;
 }
-form {
-  display: flex;
+.form-container {
   margin-bottom: 20px;
   padding: 30px;
   background-color: white;
   box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
 }
+form {
+  display: flex;
+}
 .instructions {
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
   color: #272044;
   line-height: 20px;
@@ -48,6 +50,16 @@ form {
   font-size: 18px;
   line-height: 20px;
   padding: 14px 24px;
+}
+.hint {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.1;
+  margin-top: 8px;
+  opacity: 0.6;
+}
+.hidden {
+  display: none;
 }
 .poem {
   font-family: cursive;
@@ -67,4 +79,17 @@ a {
 footer {
   text-align: center;
   margin-top: 20px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

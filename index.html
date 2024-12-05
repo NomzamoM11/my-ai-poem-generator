@@ -14,10 +14,11 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
+        <div class="form-container">
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter your poem topic here..."
+            placeholder="Enter poem topic or phrase here..."
             autofocus
             required
             autocomplete="off"
@@ -26,10 +27,11 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem">
+        <div class="hint">i.e: love, spring, renewal or life</div>
+        <div class="poem hidden" id="poem">
+        </div>
         </div>
       </main>
-
       <footer>
         This AI Project was coded by
         <a href="https://github.com/NomzamoM11" target="_blank"
